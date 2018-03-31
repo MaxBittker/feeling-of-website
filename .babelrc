@@ -1,0 +1,9 @@
+{
+	"presets": ["env"],
+	"plugins": [
+		["transform-react-jsx"],
+		["transform-class-properties"],
+		["transform-object-rest-spread"],
+		["babel-plugin-inferno", { "imports": true }]
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"extends": ["recommended/esnext", "plugin:react/recommended"],
+
+	"rules": {
+		"prefer-const": "off",
+		"no-console": "off",
+		"react/react-in-jsx-scope": "off",
+		"react/prop-types": "off",
+		"class-methods-use-this" "off",
+		"no-invalid-this": "off"
+	},
+	"env": {
+		"browser": true
+	}
+}

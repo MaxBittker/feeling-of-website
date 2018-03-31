@@ -1,0 +1,10 @@
+body {
+	height: 200%;
+}
+.frame {
+	margin: 0px;
+}
+.box {
+	border: 1px solid black;
+	padding: 3px;
+}

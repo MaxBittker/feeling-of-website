@@ -1,0 +1,45 @@
+{
+	"name": "parcel-inferno",
+	"version": "1.0.0",
+	"description": "Minimal Parcel inferno Test",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel index.html",
+		"lint": "eslint . --cache --fix",
+		"build": "parcel build index.js"
+	},
+	"repository": {
+		"type": "git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/maxbittker/parcel-inferno/issues"
+	},
+	"homepage": "https://github.com/maxbittker/parcel-inferno#readme",
+	"dependencies": {
+		"axios": "^0.18.0",
+		"babel-cli": "^6.26.0",
+		"babel-plugin-inferno": "^5.0.1",
+		"classnames": "^2.2.5",
+		"eslint-plugin-react": "^7.7.0",
+		"inferno": "^5.0.1",
+		"inferno-component": "^5.0.1",
+		"inferno-create-element": "^5.0.1",
+		"inferno-devtools": "^5.0.1",
+		"lodash.debounce": "^4.0.8",
+		"timeago.js": "^3.0.2"
+	},
+	"devDependencies": {
+		"babel": "*",
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.4",
+		"babel-plugin-transform-react-jsx": "*",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-stage-0": "^6.24.1",
+		"eslint": "*",
+		"eslint-config-recommended": "*",
+		"parcel-bundler": "^1.6.2",
+		"prettier": "^1.11.1"
+	}
+}
