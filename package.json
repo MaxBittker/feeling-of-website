@@ -6,7 +6,8 @@
 	"scripts": {
 		"start": "parcel index.html",
 		"lint": "eslint . --cache --fix",
-		"build": "parcel build index.js"
+		"build": "parcel build index.html --public-url /feeling-of-website/",
+		"deploy": "npm run build && gh-pages -d dist/"
 	},
 	"repository": {
 		"type": "git"
@@ -23,9 +24,11 @@
 		"classnames": "^2.2.5",
 		"eslint-plugin-react": "^7.7.0",
 		"inferno": "^5.0.1",
+		"inferno-clone-vnode": "^5.0.1",
 		"inferno-component": "^5.0.1",
 		"inferno-create-element": "^5.0.1",
 		"inferno-devtools": "^5.0.1",
+		"lodash": "^4.17.5",
 		"lodash.debounce": "^4.0.8",
 		"timeago.js": "^3.0.2"
 	},
